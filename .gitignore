@@ -1,0 +1,12 @@
+bin/
+target/
+/.settings
+.classpath
+.project
+.mvn
+.springBeans
+.factorypath
+mvnw.cmd
+mvnw
+src/main/resources/static/
+src/main/resources/application.yaml
