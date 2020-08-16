@@ -16,3 +16,11 @@ spring:
         provider:
           facebook:
             user-name-attribute: email
+
+paypal:
+    sandbox:
+        client-id: ${paypal.sandbox.client-id}
+        client-secret: ${paypal.sandbox.client-secret}
+    live:
+        client-id: ${paypal.live.client-id}
+        client-secret: ${paypal.live.client-secret} 
