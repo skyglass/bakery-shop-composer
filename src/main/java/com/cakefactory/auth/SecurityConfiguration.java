@@ -21,7 +21,7 @@ class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                .oauth2Login().loginPage("/login").defaultSuccessUrl("/account").and()
+                .oauth2Login().loginPage("/login").and()
                 .formLogin().loginPage("/login").and()
                 .authorizeRequests()
                     .antMatchers("/account/**").authenticated()
